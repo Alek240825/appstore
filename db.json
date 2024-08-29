@@ -1,0 +1,81 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "alejo",
+      "email": "alejo@gmail.com",
+      "password": "alejo",
+      "role": "administrador"
+    },
+    {
+      "id": "2",
+      "username": "alejandro",
+      "email": "alejandro@gmail.com",
+      "password": "alejandro",
+      "role": "usuario"
+    },
+    {
+      "id": "dd30",
+      "username": "Alek",
+      "email": "Alek@1223",
+      "password": "Alek",
+      "role": "usuario"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "name": "Game 1",
+      "category": "Accion",
+      "description": "Game 1 description",
+      "image": "./src/Assets/images/Accion.jpg",
+      "size": 500,
+      "price": 19.99,
+      "licensesAvailable": 82,
+      "licensesSold": "018"
+    },
+    {
+      "id": "2",
+      "name": "Game 2",
+      "category": "Carreras",
+      "description": "Game 2 description",
+      "image": "game2.jpg",
+      "size": 200,
+      "price": 9.99,
+      "licensesAvailable": 50,
+      "licensesSold": 0
+    },
+    {
+      "id": "3",
+      "name": "Game 3",
+      "category": "Deportes",
+      "description": "Game 3 description",
+      "image": "game3.jpg",
+      "size": 1000,
+      "price": 29.99,
+      "licensesAvailable": 200,
+      "licensesSold": 0
+    },
+    {
+      "id": "4",
+      "name": "Game 4",
+      "category": "Rompecabezas",
+      "description": "Game 4 description",
+      "image": "game4.jpg",
+      "size": 1000,
+      "price": 29.99,
+      "licensesAvailable": 200,
+      "licensesSold": 0
+    }
+  ],
+  "purchases": [
+    {
+      "id": "f0a1",
+      "userId": null,
+      "gameId": "1",
+      "licensesPurchased": "18",
+      "totalPrice": "359.82"
+    }
+  ],
+  "cart": []
+}

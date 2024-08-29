@@ -1,0 +1,45 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  background-color: #AECBFA;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #FFDAB9;
+  padding: 10px;
+}
+
+.header img {
+  width: 55px;
+  height: 55px;
+}
+
+.header nav {
+  margin: 0 0 0 auto;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header li {
+  margin-right: 10px;
+}
+
+.header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
