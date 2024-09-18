@@ -20,6 +20,20 @@
       "email": "Alek@1223",
       "password": "Alek",
       "role": "usuario"
+    },
+    {
+      "id": "ab3b",
+      "username": "Novoa",
+      "email": "Novoa@gmail.com",
+      "password": "Novoa",
+      "role": "usuario"
+    },
+    {
+      "id": "a45c",
+      "username": "Narly",
+      "email": "Narly@gmail.com",
+      "password": "Narly",
+      "role": "usuario"
     }
   ],
   "games": [
@@ -31,8 +45,8 @@
       "image": "./src/Assets/images/Accion.jpg",
       "size": 500,
       "price": 19.99,
-      "licensesAvailable": 82,
-      "licensesSold": "018"
+      "licensesAvailable": 0,
+      "licensesSold": "0100"
     },
     {
       "id": "2",
@@ -42,8 +56,8 @@
       "image": "game2.jpg",
       "size": 200,
       "price": 9.99,
-      "licensesAvailable": 50,
-      "licensesSold": 0
+      "licensesAvailable": 0,
+      "licensesSold": "050"
     },
     {
       "id": "3",
@@ -69,13 +83,7 @@
     }
   ],
   "purchases": [
-    {
-      "id": "f0a1",
-      "userId": null,
-      "gameId": "1",
-      "licensesPurchased": "18",
-      "totalPrice": "359.82"
-    }
   ],
-  "cart": []
+  "cart": [
+  ]
 }

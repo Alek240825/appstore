@@ -115,7 +115,6 @@ const GameCard = ({ game, isLoggedIn, updateGame }) => {
       <p>Tamaño: {game.size} MB</p>
       <p>Precio: ${game.price}</p>
       <p>Licencias disponibles: {game.licensesAvailable}</p>
-      <p>Licencias vendidas: {game.licensesSold}</p>
       <div className="actions">
         <button className="buy-button" onClick={handleBuy}>
           Comprar
